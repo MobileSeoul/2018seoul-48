@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    app:layout_constraintCircleRadius="10dp"
+    android:padding="10dp"
+    android:background="@drawable/linear_layout_radius"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content">
+
+        <!--
+            private String servId;       //	서비스ID
+            private String servNm;       //	서비스명
+            private String servDgst;     //	서비스 요약
+            private String jurMnofNm;    //	소관부처명
+            private String jurOrgNm;     //	소관조직명
+            private String inqNum;       //	조회수
+            private String servDtlLink;  //	서비스상세링크
+            private String svcfrstRegTs; //	서비스등록일
+        -->
+
+        <TextView
+            android:id="@+id/item_txt_serv_nm"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/item_txt_serv_dgst"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_button"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:background="@drawable/ic_navigate_next_black_24dp"
+        android:layout_width="0dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

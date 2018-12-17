@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbars="vertical"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/item_data_serv_nm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/a1"
+        android:text="선정대상"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/item_data_serv_nm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/item_data_tgtr_dtl_cn"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@id/a1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/a2"
+        android:text="선정기준"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/item_data_tgtr_dtl_cn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/item_data_slct_crit_cn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/a2"
+        android:textSize="15sp"
+        />
+
+        <TextView
+        android:id="@+id/a3"
+        android:text="지원내용"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/item_data_slct_crit_cn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/item_data_alw_serv_cn"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@id/a3"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/a4"
+        android:text="이용 및 신청방법"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/item_data_alw_serv_cn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/item_data_serv_se_detail_nm"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/a4"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp" />
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/item_data_serv_se_detail_nm"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/item_data_inqpl_ctadr_nm"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/item_data_inqpl_ctadr_link"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

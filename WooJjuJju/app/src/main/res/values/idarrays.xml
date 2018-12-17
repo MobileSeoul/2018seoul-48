@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="preg">
+        <item>WII00000390</item>
+        <item>WII00000460</item>
+        <item>WII00000141</item>
+        <item>WII00000069</item>
+        <item>WII00000297</item>
+        <item>WII00000395</item>
+        <item>WII00000397</item>
+        <item>WII00000058</item>
+        <item>WII00000106</item>
+        <item>WII00000274</item>
+        <item>WII00000344</item>
+    </string-array>
+
+</resources>
